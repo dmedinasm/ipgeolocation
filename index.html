@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Geolocation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <main class="container">
+        <form id="form">
+            <label>IP del Usuario
+            <input required id="input" type="text" placeholder = 'Introduce aquí la IP'>
+            <small>Por ejemplo: 54.85.132.205</small>
+            </label>
+            <button type="submit" id="submit">Buscar informacion de esta IP</button><!--El ultimo button de un form funciona como submit-->
+        </form>
+    </main>
+    <div>
+        <pre id="results">
+            
+        </pre>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
